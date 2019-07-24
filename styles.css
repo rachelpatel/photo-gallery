@@ -1,0 +1,41 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.header1{
+  font-family: 'Fascinate', cursive;
+  font-size: 75px;
+  text-align: center;
+  border:2px dashed black;
+}
+.rotate1{
+  animation: rotation 2s infinite linear;
+}
+
+img{
+  object-fit:cover;
+  width:400px;
+  height:400px;
+  margin: 10px;
+}
+body{
+  background-color:#FFFBCD;
+}
+@media screen and (max-width:985px){
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 600px){
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+}
